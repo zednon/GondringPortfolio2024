@@ -1,0 +1,76 @@
+
+
+header {
+  border-bottom: #F02B7D 10px solid;
+  padding: 20px 0;
+}
+
+.liNavTop {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+background-color: #F02B7D;
+border: #010B0A 2px solid; 
+color: #010B0A; 
+font-size: 25px;
+}
+
+body {
+  font-family: "winco", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+background-color: #FFFDFE;
+}
+
+.liNavTop:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+  background-color: #010B0A;
+  color: #F02B7D;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* About CSS */
+
+.gridTwoBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.mainBoarder {
+  border: #010B0A 10px solid;
+  width: 100%;
+  padding: 5px;
+}
+
+.mainFont {
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 40px;
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+}
+
+.lineThin {
+height: 5px;
+width: 100%;
+background-color: #6F2A87;
+margin: 20px 0;
+}
+
+.mainInfo {
+  padding: 30px;
+}
