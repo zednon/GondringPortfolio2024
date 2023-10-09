@@ -12,7 +12,7 @@ export default function About() {
    <div className="lineThin"></div>
 
    <p className="mainFont mainInfo">
-    Front-End Engineering Portfolio</p>
+    UX/Front-End Engineering Portfolio</p>
    <div className="lineThin"></div>
 
    <p className="mainInfo">I like to design things, coding, making sure everything is accessible, drinking coffee, and cats. I really like cats.</p>

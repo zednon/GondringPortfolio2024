@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: "React Reserve",
-    subtitle: "MERN Stack",
+    title: "Urban Wizard Retreat",
+    subtitle: "ux, design, development, branding, and marketing",
+    date: "2021 - present",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-1.gif",
-    link: "https://reactbootcamp.com",
+      "I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them",  
+    link: "View The Study Here",
   },
   {
     title: "React Tracks",

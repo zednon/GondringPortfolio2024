@@ -50,7 +50,18 @@ background-color: #FFFDFE;
   border: #010B0A 10px solid;
   width: 100%;
   padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
 }
+
+.tealLine {
+  height: 100px;
+  width: 100%;
+  background-color: #0AD6BF;
+  margin: 20px 0;
+  border: #010B0A 5px solid;
+}
+
+
 
 .mainFont {
   font-family: "omnes-pro", sans-serif;
@@ -72,5 +83,23 @@ margin: 20px 0;
 }
 
 .mainInfo {
-  padding: 30px;
+  padding: 15px 15%  15px 15%;
 }
+
+.threeBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+
+}
+
+.projectBox {
+  border: #010B0A 5px solid;
+  padding: 10px;
+  height: auto;
+  width: 100%;
+  box-shadow: #FB9E35 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+
