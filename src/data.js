@@ -5,31 +5,25 @@ export const projects = [
     date: "2021 - present",
     description:
       "I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them",  
-    link: "View The Study Here",
+    button: "View The Study Here",
   },
   {
-    title: "React Tracks",
-    subtitle: "React and Python",
+    date: "2023 - present",
+    title: "tbh",
+    subtitle: "tbh",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-2.gif",
-    link: "https://reactbootcamp.com",
-  },
-  {
-    title: "DevChat",
-    subtitle: "React and Firebase",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
+      "tbh",
     image: "./project-3.gif",
-    link: "https://reactbootcamp.com",
+    link: "tbh",
   },
   {
-    title: "Epic Todo App",
-    subtitle: "React Hooks",
+    date: "2023 - present",
+    title: "tbh",
+    subtitle: "tbh",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium dolore rerum laborum iure enim sint nemo omnis voluptate exercitationem eius?",
-    image: "./project-4.gif",
-    link: "https://reactbootcamp.com",
+      "tbh",
+    image: "./project-3.gif",
+    link: "tbh",
   },
 ];
 

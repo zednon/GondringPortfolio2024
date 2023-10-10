@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
         <div className="tealLine">
           <h2 className="mainFont mainInfo project">
-        Please view my different projects
+        Lastest
           </h2>
           </div>   
          
@@ -25,13 +25,18 @@ I am a UX designer who is fully able to code and develop my own designs. I have 
             {projects.map((project) => (
          
                 <div className="projectBox">
-            <p>{project.date}</p>
-                <p>{project.subtitle}</p>
-                <h2>{project.title}</h2>
-                <p>{project.description}</p>
-                <button><a>{project.link}</a></button>
+                <div className="projectpadding">
+            <p className="projectDate">{project.date}</p>
+                <p className="projectSubtitle">{project.subtitle}</p>
+                <h2 className="projectTitle">{project.title}</h2>
+                <div className="lineThin"></div>
+                <p className="projectDescription">{project.description}</p>
+                </div>
+              <div className="yellowBox">
+                <button className="projectButton" role="button"><a href="{project.link}" className="projectLink">{project.button}</a></button>
               </div>
-             
+              </div>
+         
             ))}
              
            </div>

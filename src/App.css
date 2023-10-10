@@ -27,6 +27,7 @@ background-color: #FFFDFE;
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
   background-color: #010B0A;
   color: #F02B7D;
+  border: #F02B7D 2px solid;
 }
 
 *,
@@ -83,7 +84,8 @@ margin: 20px 0;
 }
 
 .mainInfo {
-  padding: 15px 15%  15px 15%;
+  text-align: center;
+  padding: 0 15%;
 }
 
 .threeBlocks {
@@ -96,10 +98,143 @@ margin: 20px 0;
 
 .projectBox {
   border: #010B0A 5px solid;
-  padding: 10px;
   height: auto;
   width: 100%;
   box-shadow: #FB9E35 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
 }
 
 
+.projectDate{
+  float: right;
+  font-size: 14px;
+background: #F2DA1B;
+padding: 4px; 
+}
+.projectpadding {
+  padding: 10px;
+}
+.projectSubtitle {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+ width: 100%;
+ margin: 35px 0 10px 0;
+ height: 50px;
+}
+
+.projectTitle {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+ width: 100%;
+ margin: 10px 0;
+ height: 50px;
+}
+
+.projectButton {
+  margin: 50px 25%;
+  border: #010B0A 3px solid;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 10px;
+  background-color: #F2DA1B;
+  color: #010B0A;
+  height: 48px;
+  line-height: 24px;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+
+
+.projectDescription {
+  height: 200px;
+}
+
+/* CSS */
+
+.projectButton:after {
+  background-color: #111;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+
+
+.projectButton:hover:after {
+  transform: translate(0, 0);
+}
+
+.projectButton:active {
+  background-color: #010B0A;
+  outline: 0;
+  color: #F2DA1B;
+}
+
+.projectButton:hover {
+  outline: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.yellowBox {
+  border-top: #010B0A 5px solid;
+  background-color: #F2DA1B;
+  width: 100%;
+  height: 150px;
+
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #010B0A;
+}
+
+.projectLink:active {
+  background-color: #010B0A;
+  outline: 0;
+  color: #F2DA1B;
+  padding: 5px;
+  border: #010B0A 1px solid;
+}
+
+
+.footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+width: 90%;
+height: auto;
+font-size: 14px;
+border:#010B0A 10px solid;
+border-radius: 50px;
+margin: 0 5%;
+
+}
+
+
+
+.navBottom {
+  display: grid;
+grid-template-columns: 3fr 1fr 1fr 1fr 1fr 3fr;
+padding:50px 0;
+
+}
+
+.ulNavBottom {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ilFirstNavBottom {
+  font-size: 16px;
+  padding-bottom: 3px;
+}

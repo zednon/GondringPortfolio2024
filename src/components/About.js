@@ -8,7 +8,7 @@ export default function About() {
         <div className="gridTwoBlocks">
 <div className="mainBoarder">
 
-   <h1 className="mainFont mainInfo">Anna Gondring's</h1>
+   <h1 className="mainFont mainInfo">Ana Gondring's</h1>
    <div className="lineThin"></div>
 
    <p className="mainFont mainInfo">
