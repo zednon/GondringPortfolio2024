@@ -45,10 +45,21 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "JavaScript",
   "React",
-  "Next.js",
-  "Node",
-  "GraphQL",
-  "Material UI",
-];
+  "UX Design",
+  "Node.js",
+  "Accessibility",
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "WCAG",
+  "Git",
+  "Figma",
+  "Adobe XD",
+  "Adobe Photoshop",
+  "Adobe Illustrator",
+  "Adobe InDesign", 
+  "Email Development",
+  "Email Design",
+  "Email Automation",
+]

@@ -16,7 +16,7 @@ export default function Footer() {
 
     </ul>
     <ul  className="ulNavBottom">
-<li className="ilFirstNavBottom"><strong>UX Case Studies</strong></li>
+<li className="ilFirstNavBottom"><strong>Case Studies</strong></li>
 <li className="ilNavBottom">Urban Wizard</li>
 <li className="ilNavBottom">TBN</li>
 <li className="ilNavBottom">More</li>

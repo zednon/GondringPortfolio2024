@@ -11,7 +11,7 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
         <div className="tealLine">
           <h2 className="mainFont mainInfo project">
-        Lastest
+        Lastest Projects
           </h2>
           </div>   
          
@@ -40,7 +40,7 @@ I am a UX designer who is fully able to code and develop my own designs. I have 
             ))}
              
            </div>
-          <div className="tealLine"></div>
+         
         </div>
     
       
