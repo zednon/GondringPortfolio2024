@@ -45,21 +45,37 @@ export const testimonials = [
 ];
 
 export const skills = [
-  "React",
-  "UX Design",
-  "Node.js",
-  "Accessibility",
-  "HTML",
-  "CSS",
-  "JavaScript",
-  "WCAG",
-  "Git",
-  "Figma",
-  "Adobe XD",
-  "Adobe Photoshop",
-  "Adobe Illustrator",
-  "Adobe InDesign", 
-  "Email Development",
-  "Email Design",
-  "Email Automation",
-]
+{
+  title: "UX Design",
+  description: "Accessibility, User Research, Wireframing, Prototyping, User Testing, User Flows, Information Architecture, Design Systems, Design Thinking, User-Centered Design, Responsive Design, Email Design, WCAG", 
+  button: "View UX Projects",
+}
+, 
+{
+  title: "Front-End",
+  description: "Accessibility, React, HTML, CSS, JavaScript, Git, Email Development, Email Automation, Vue.js, Flutter, WordPress, Section 508, Aria",
+  button: "View Front-End Projects",
+},
+ {
+  title: "Tools",
+  description: "Accessibility testing, Adobe Creative Suite, Figma, Adobe XD, Visual Studio Code, Asana, Slack, Microsoft Office, MailChimp, Active Campain",
+  button: "Visit my LinkedIn", 
+},
+  
+];
+
+export const pjLayout = [
+{
+skill: "UX, UI, Front End-Engineering, Email",
+  title: "Wizard Retreat Weekend",
+  subtitle: "In this project I worked as the sole designer and developer. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, Please click the button below this project",
+img: "../src/media/wrwcomputer.jpg",
+alt: "img of the Wizard Retreat Weekend Website in a desktop",
+button: "View The Study Here",
+}
+
+
+
+]//  {title: "Accessibility",
+//skill: "WCAG Section 508 Aria HTML" 
+//}, 

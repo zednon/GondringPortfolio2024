@@ -1,18 +1,15 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Switch} from 'react-router-dom';
-import Navbar from "../components/NavBar";
+import Footer from "../components/Footer";
 import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import About from "../components/About";
-import Footer from "../components/Footer";
 
 
-const Home = () => {
-return (    
-    <><About /><Projects /><Skills /><Footer /></>
-);
-};
-
-export default Home;
-
-
+const WRW = () => {
+    return (    
+        <><Projects /><Skills /><Footer /></>
+    );
+    };
+    
+    export default WRW;

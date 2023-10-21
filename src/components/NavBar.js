@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <header>
       <nav>
-        <ul>
+      <ul>
         <li className="liNavTop"><a>Home</a></li>
             <li className="liNavTop"><a>Case Studies</a></li>
             <li className="liNavTop"><a>Code Projects</a></li>

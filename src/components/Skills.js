@@ -8,26 +8,27 @@ export default function Skills() {
         <div className="text-center mb-20">
 
         
-          <div className="tealLine"><h2 className="mainFont mainInfo project"> Skills &amp; Technologies</h2></div>
+          <div className="tealLine">
+            <h2 className="mainFont mainInfo project"> 
+            Skills &amp; Technologies</h2></div>
            
-          
-          <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nisi sit
-            ipsa delectus eum quo voluptas aspernatur accusantium distinctio
-            possimus est.
-          </p>
         </div>
+
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
+        <div className="threeBlocks">
           {skills.map((skills) => (
-            <div key={skills} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                  <span className="title-font font-medium text-white">
-                  {skills}
-                </span>
-              </div>
-            </div>
+           <div className="projectBox">
+<div className="projectpadding">
+               
+                <h2 className="projectTitle">{skills.title}</h2>
+                <div className="lineThin"></div>
+                <p className="projectDescription">{skills.description}</p>
+                </div>
+
+</div>
+           
           ))}
-        </div>
+        </div></div>
       </div>
     </section>
   );
