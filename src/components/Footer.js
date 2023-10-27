@@ -1,6 +1,6 @@
 import React from "react";
 import About from "./About";
-import WRW from "../pages/wrw.js";
+import WRW from "../pages/WRW.js";
 import {
     BrowserRouter as Router,  Routes,
     Route,
