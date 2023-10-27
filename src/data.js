@@ -1,13 +1,5 @@
 export const projects = [
   {
-    title: "Urban Wizard Retreat",
-    subtitle: "ux, design, development, branding, and marketing",
-    date: "2021 - present",
-    description:
-      "I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them",  
-    button: "View The Study Here",
-  },
-  {
     date: "2023 - present",
     title: "tbh",
     subtitle: "tbh",
@@ -16,6 +8,15 @@ export const projects = [
     image: "./project-3.gif",
     link: "tbh",
   },
+  {
+    title: "Urban Wizard Retreat",
+    subtitle: "ux, design, development, branding, and marketing",
+    date: "2021 - present",
+    description:
+      "I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them",  
+    button: "View The Study Here",
+  },
+
   {
     date: "2023 - present",
     title: "tbh",
@@ -72,10 +73,24 @@ skill: "UX, UI, Front End-Engineering, Email",
 img: "../src/media/wrwcomputer.jpg",
 alt: "img of the Wizard Retreat Weekend Website in a desktop",
 button: "View The Study Here",
+},
+
+
+
+];
+
+
+export const codeProject = [
+{
+  launage: "HTML, CSS", 
+title: "User login",
+date: "Oct 2023",
+view: "see the project",
+
 }
+]
+  
 
 
-
-]//  {title: "Accessibility",
 //skill: "WCAG Section 508 Aria HTML" 
 //}, 

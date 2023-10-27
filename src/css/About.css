@@ -1,0 +1,14 @@
+.heroImg {
+ 
+    width: 80%;
+    height: auto;
+  }
+
+  .mainInfo {
+    text-align: center;
+    padding: 10px 15% 5px 5%;
+  }
+
+  .imgPadding {
+    margin: 0 0 0 5%;
+  }
