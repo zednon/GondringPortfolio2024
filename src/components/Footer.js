@@ -14,20 +14,20 @@ export default function Footer () {
 const navigate = useNavigate();
 
 const wrwLink = () => {
-navigate("/wrw");
+navigate("/GondringPortfolio2024/wrw");
 }
 
 const GalleryLink = () => {
-    navigate("/gallery");
+    navigate("/GondringPortfolio2024/gallery");
     }
 
 const HomeLink = () => {
 navigate("/"); }
 const CSLink = () => {
-    navigate("/casestudy");
+    navigate("/GondringPortfolio2024/casestudy");
     }
     const ResumeLink = () => {
-        navigate("/resume");
+        navigate("/GondringPortfolio2024/resume");
         }
 return (
 <footer>

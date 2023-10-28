@@ -18,13 +18,13 @@ export default function Navbar() {
 const homeLink = () => {
 navigate("/");}
 const CSLink = () => {
-  navigate("/casestudy");
+  navigate("/GondringPortfolio2024/casestudy");
   }
   const GalleryLink = () => {
-    navigate("/gallery");
+    navigate("/GondringPortfolio2024/gallery");
     }
     const ResumeLink = () => {
-      navigate("/resume");
+      navigate("/GondringPortfolio2024/resume");
       }
 
   return (
