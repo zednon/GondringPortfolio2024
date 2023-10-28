@@ -1,8 +1,9 @@
 
 
 header {
-  border-bottom: #F02B7D 10px solid;
+  border-bottom: #010B0A 4px solid;
   padding: 20px 0;
+  color:#FFFDFE;
 }
 
 .bodyFont {
@@ -24,13 +25,14 @@ color: #010B0A;
 font-size: 25px;
 }
 
-.NavBarLink {
+.liNavTop .NaBarLink{
   text-decoration: none;
-  color: #FFFDFE;
+color: #FFFDFE;
 }
 
 .NavBarLink:hover {
   text-decoration: none;
+
 }
 
 body {
@@ -43,7 +45,21 @@ background-color: #FFFDFE;
 
 .liNavTop:hover {
   box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+ 
+}
 
+.NaBarLink {
+  text-decoration: none;
+  color: #FFFDFE;
+  
+}
+
+
+
+
+.NaBarLink:hover {
+  border-bottom:#FFFDFE 2px solid;
+ 
 }
 
 *,

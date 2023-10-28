@@ -5,11 +5,11 @@ import Projects from "../components/Projects";
 import Skills from "../components/Skills";
 import About from "../components/About";
 import Footer from "../components/Footer";
-
+import NavBar from "../components/NavBar";
 
 const Home = () => {
 return (    
-    <><About /><Projects /><Skills /><Footer /></>
+    <><NavBar /><About /><Projects /><Skills /><Footer /></>
 );
 };
 

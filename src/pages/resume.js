@@ -5,17 +5,16 @@ import NavBar from "../components/NavBar.js";
 
 
 
-const WRW = () => {
+const Resume = () => {
     return (    <>
     <NavBar />
     <div className="tealLine">
           <h1 className="mainFont mainInfo project">
-        Wizard Retreat Weekend
+          Career Journey
           </h1>
           </div> 
 
     <Footer /></>    );
     };
     
-    export default WRW;
-    
+    export default Resume;

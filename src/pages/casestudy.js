@@ -2,11 +2,12 @@ import React from "react";
 import Layout from "../components/Layout.js";
 
 import Footer from "../components/Footer";
+import Navbar from "../components/NavBar.js";
 
 
 const Casestudy = () => {
 return (    
-    <><Layout/><Footer /></>
+    <><Navbar/><Layout/><Footer /></>
 );
 };
 

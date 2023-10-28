@@ -11,15 +11,24 @@ import {
    
   } from "react-router-dom";
 export default function Footer () {
-const params = useParams();
 const navigate = useNavigate();
 
 const wrwLink = () => {
-
-
-navigate("/GondringPortfolio2024/casestudy/wrw");
+navigate("/wrw");
 }
 
+const GalleryLink = () => {
+    navigate("/gallery");
+    }
+
+const HomeLink = () => {
+navigate("/"); }
+const CSLink = () => {
+    navigate("/casestudy");
+    }
+    const ResumeLink = () => {
+        navigate("/resume");
+        }
 return (
 <footer>
 <div className="footerBox">
@@ -27,21 +36,23 @@ return (
 <nav className="navBottom">
 <div></div>
     <ul className="ulNavBottom">
-<li className="ilFirstNavBottom"><strong>About me</strong></li>
-<li className="ilNavBottom">Designs</li>
-<li className="ilNavBottom">Resume</li>
+<li className="ilFirstNavBottom"> 
+<Link href="" onClick={HomeLink} className="NaBarLink">
+    <strong>About me</strong></Link></li>
+<li className="ilNavBottom"> <Link href="" onClick={GalleryLink} className="NaBarLink">Gallery</Link></li>
+<li className="ilNavBottom"><Link href="" onClick={ResumeLink} className="NaBarLink">Resume</Link></li>
 <li className="ilNavBottom">Certifications</li>
-
     </ul>
-    <ul  className="ulNavBottom">
-<li className="ilFirstNavBottom"><strong>Case Studies</strong></li>
+    <ul  className="ulNavBottom">   
+<li className="ilFirstNavBottom"><Link href="" onClick={CSLink} className="NaBarLink"><strong>Case Studies</strong></Link></li>
+
 <li className="ilNavBottom">TBN</li>
 
-<li className="ilNavBottom">       
+<li className="ilNavBottom">    
 
-    <a href="" onClick={wrwLink}>Wizard Retreat
-      </a> </li>
-<li className="ilNavBottom">More</li>
+    <Link href="" onClick={wrwLink} className="NaBarLink">Wizard Retreat
+    </Link> </li>
+<li className="ilNavBottom"><Link href="" onClick={CSLink} className="NaBarLink">More</Link></li>
 
     </ul>
     <ul  className="ulNavBottom">
