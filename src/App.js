@@ -6,6 +6,7 @@ import WRW from "./pages/wrw.js";
 import Casestudy from "./pages/casestudy.js";
 import './css/About.css';
 import { img } from "./media/wrwcomputer.jpg"
+
 import {
   BrowserRouter as Router,
   Routes,

@@ -1,8 +1,20 @@
 
 import React from "react";
 import { projects } from "../data";
-
+import {
+  BrowserRouter as Router,  Routes,
+  Route,
+  useParams,
+  useNavigate,
+  Link,
+  BrowserRouter, 
+ 
+} from "react-router-dom";
 export default function Projects() {
+  const navigate = useNavigate();
+  const wrwLink = () => {
+    navigate("/GondringPortfolio2024/WRW");
+    }
   return (
 
 
@@ -15,8 +27,8 @@ export default function Projects() {
           </h2>
           </div>   
          
-          <p className="mainInfo">
-I am a UX designer who is fully able to code and develop my own designs. I have a passion for creating beautiful, functional, and accessible websites and applications. I am a strong believer in the power of design and its ability to make a difference in the world. I am a hard worker, a quick learner, and a team player. I am always looking for new opportunities to learn and grow as a designer and developer. I am currently looking for a full-time position as a UX designer or front-end developer. I also know a thing or two about accessilble design and would love to help you make your website or application more accessible. 
+          <p className="mainInfo center">
+I am a UX designer who is fully able to code and develop my own designs. I have a passion for creating beautiful, functional, and accessible websites and applications. I am a strong believer in the power of design and its ability to make a difference in the world.
           </p>
         </div>
         
@@ -33,7 +45,9 @@ I am a UX designer who is fully able to code and develop my own designs. I have 
                 <p className="projectDescription">{project.description}</p>
                 </div>
               <div className="yellowBox">
-                <button className="projectButton" role="button"><a href="{project.link}" className="projectLink">{project.button}</a></button>
+                <button className="projectButton" role="button">
+                  <Link href="" onclick={wrwLink} className="projectLink">
+                    {project.button}</Link></button>
               </div>
               </div>
          

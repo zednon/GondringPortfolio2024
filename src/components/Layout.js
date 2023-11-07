@@ -13,10 +13,8 @@ export default function Layout() {
   const navigate = useNavigate();
 
   const wrwLink = () => {
-  
-  
-  navigate("/GondringPortfolio2024/casestudy/wrw");
-  }
+    navigate("/GondringPortfolio2024/WRW");
+    }
   
 
   return (
@@ -38,7 +36,7 @@ UX, UI, Front End-Engineering, Email
 <p className="projectpadding">I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them</p>
 
 <div className="ojBox">
-                <button className="projectButtonoj" role="button"><a href="" onClick={wrwLink}>View Study</a></button>
+  <button className="projectButtonoj" role="button"><a href="" onClick={wrwLink}>View Study</a></button>
               </div>
 </div></div>
 

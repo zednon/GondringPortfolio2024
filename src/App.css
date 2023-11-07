@@ -1,7 +1,7 @@
 
 
 header {
-  border-bottom: #010B0A 4px solid;
+  
   padding: 20px 0;
   color:#FFFDFE;
 }
@@ -25,9 +25,18 @@ color: #010B0A;
 font-size: 25px;
 }
 
+.dancingWitch {
+  width: 100%;
+  height: auto;
+}
+
 .liNavTop .NaBarLink{
   text-decoration: none;
 color: #FFFDFE;
+}
+
+.CSpadding {
+  padding: 5%;
 }
 
 .NavBarLink:hover {
@@ -41,6 +50,8 @@ font-weight: 400;
 font-style: normal;
 font-size: 18px;
 background-color: #FFFDFE;
+
+
 }
 
 .liNavTop:hover {
@@ -53,9 +64,13 @@ background-color: #FFFDFE;
   color: #FFFDFE;
   
 }
+#about {margin: 50px 20%;
+}
 
-
-
+.heroImg {
+  width: 100%;
+  height: auto;
+}
 
 .NaBarLink:hover {
   border-bottom:#FFFDFE 2px solid;
@@ -87,11 +102,12 @@ background-color: #FFFDFE;
 }
 
 .tealLine {
-  height: 100px;
+  height: auto;
   width: 100%;
   background-color: #0AD6BF;
   margin: 20px 0;
   border: #010B0A 5px solid;
+  margin: 100px 0;
 }
 
 
@@ -100,7 +116,8 @@ background-color: #FFFDFE;
   font-family: "omnes-pro", sans-serif;
   font-weight: 900;
   font-style: normal;
-  font-size: 40px;
+  font-size: 4.5rem;
+
 }
 
 
@@ -112,6 +129,12 @@ background-color: #6F2A87;
 margin: 20px 0;
 }
 
+.fourBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
 
 
 .threeBlocks {
@@ -175,6 +198,7 @@ padding: 4px;
  margin: 10px 0;
  height: 50px;
 }
+
 
 .projectButton {
   margin: 45px 5%;
@@ -250,21 +274,28 @@ bottom: 0;
   height: 500px;
 }
 
-
+.designImg {
+  width: 100%;
+  height: auto;
+}
 
 
 .footerBox {
   background-color: #F02B7D;
   color:#FFFDFE;
-width: 90%;
+width: 95%;
 height: auto;
-font-size: 14px;
+font-size: 16px;
 border:#010B0A 10px solid;
 border-radius: 50px;
-margin: 0 5%;
+
 
 }
 
+.footnote {
+  padding: 0 0 10px 0;
+  margin-left: 35% ;
+}
 
 
 .navBottom {
@@ -272,6 +303,12 @@ margin: 0 5%;
 grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
 padding:50px 0;
 
+}
+
+.center {
+  text-align: center;
+
+  padding: 1.5rem 25%;
 }
 
 .ulNavBottom {
@@ -319,7 +356,6 @@ bottom: 0;
 }
 
 
-
 .projectButtonoj:active {
   background-color: #010B0A;
   outline: 0;
@@ -339,4 +375,105 @@ bottom: 0;
 .projectButtonoj:hover {
   outline: 0;
   box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+  .gridTwoBlocks { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  }
+.threeBlocks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;}
+
+ }
+.navbarTop {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+ .footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+  width: 100%; 
+  margin: 0;
+}
+
+.topicLineL 
+{
+background-color: #6F2A87;
+  width: 100%;
+  margin-top: 25px;
+  height: 5px;
+  
+}
+
+.gridTopics {
+  display: grid;
+  grid-template-columns: 3fr 1fr 3fr;
+  grid-gap: 20px;
+  padding: 100px 20px;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {  
+.gridTwoBlocks { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  }
+  .threeBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;}
+}
+
+.navbarTop {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mainBoarder {
+  border: #010B0A 10px solid;
+  width: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.mainInfo {
+  text-align: center;
+    
+}
+
+.footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+  width: 100%; 
+  margin: 0;
+}
+   
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media only screen and (min-width: 768px)  { 
+  .navbarTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .footerBox {
+    background-color: #F02B7D;
+    color:#FFFDFE;
+
+  border-radius: 50px;
+
+  
+  }
+
+  
+
 }
