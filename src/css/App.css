@@ -120,6 +120,34 @@ background-color: #FFFDFE;
 
 }
 
+.twoBlocksOneLong {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.fontLevelTwo {
+ 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+
+}
+.backgroundSWOTColor {
+  background-color: #FB9E35;
+  text-align: center;
+  padding: 5%;
+}
+
+
+.fontLevelThree {
+ 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+
+}
 
 
 .lineThin {
@@ -274,6 +302,22 @@ bottom: 0;
   height: 500px;
 }
 
+.listItems {
+  list-style-type: none;
+
+  padding: 0 0 0 1rem;
+
+}
+
+.listItems li::before {
+  content: "\2743";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #FB9E35; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
 .designImg {
   width: 100%;
   height: auto;
@@ -402,6 +446,7 @@ bottom: 0;
   margin: 0;
 }
 
+
 .topicLineL 
 {
 background-color: #6F2A87;
@@ -411,9 +456,12 @@ background-color: #6F2A87;
   
 }
 
+
+
 .gridTopics {
-  display: grid;
-  grid-template-columns: 3fr 1fr 3fr;
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
   grid-gap: 20px;
   padding: 100px 20px;
 }
