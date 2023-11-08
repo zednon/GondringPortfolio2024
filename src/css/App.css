@@ -1,0 +1,527 @@
+
+
+header {
+  
+  padding: 20px 0;
+  color:#FFFDFE;
+}
+
+.bodyFont {
+  font-family: "winco", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 18px;
+  background-color: #FFFDFE;
+
+}
+
+.liNavTop {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 10px 20px;
+background-color: #F02B7D;
+border: #010B0A 2px solid; 
+color: #010B0A; 
+font-size: 25px;
+}
+
+.dancingWitch {
+  width: 100%;
+  height: auto;
+}
+
+.liNavTop .NaBarLink{
+  text-decoration: none;
+color: #FFFDFE;
+}
+
+.CSpadding {
+  padding: 5%;
+}
+
+.NavBarLink:hover {
+  text-decoration: none;
+
+}
+
+body {
+  font-family: "winco", sans-serif;
+font-weight: 400;
+font-style: normal;
+font-size: 18px;
+background-color: #FFFDFE;
+
+
+}
+
+.liNavTop:hover {
+  box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+ 
+}
+
+.NaBarLink {
+  text-decoration: none;
+  color: #FFFDFE;
+  
+}
+#about {margin: 50px 20%;
+}
+
+.heroImg {
+  width: 100%;
+  height: auto;
+}
+
+.NaBarLink:hover {
+  border-bottom:#FFFDFE 2px solid;
+ 
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* About CSS */
+
+.gridTwoBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.mainBoarder {
+  border: #010B0A 10px solid;
+  width: 100%;
+  padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.tealLine {
+  height: auto;
+  width: 100%;
+  background-color: #0AD6BF;
+  margin: 20px 0;
+  border: #010B0A 5px solid;
+  margin: 100px 0;
+}
+
+
+
+.mainFont {
+  font-family: "omnes-pro", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 4.5rem;
+
+}
+
+.twoBlocksOneLong {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+.fontLevelTwo {
+ 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 3.5rem;
+
+}
+.backgroundSWOTColor {
+  background-color: #FB9E35;
+  text-align: center;
+  padding: 5%;
+}
+
+
+.fontLevelThree {
+ 
+  font-weight: 700;
+  font-style: normal;
+  font-size: 2.5rem;
+
+}
+
+
+.lineThin {
+height: 5px;
+width: 100%;
+background-color: #6F2A87;
+margin: 20px 0;
+}
+
+.fourBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+
+.threeBlocks {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+
+}
+
+.pojectHeadline {
+  float: right;
+  font-size: 18px;
+  font-family: "winco", sans-serif;
+  padding: 2%;
+  background-color: #FB9E35;
+  margin-bottom: 2%;
+}
+
+.leftProject {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
+  padding: 20px;
+}
+
+
+.projectBox {
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+  border: #010B0A 5px solid;
+  height: auto;
+  width: 100%;
+}
+
+
+
+.projectDate{
+  float: right;
+  font-size: 14px;
+background: #F2DA1B;
+padding: 4px; 
+}
+.projectpadding {
+  padding: 10px;
+  width: 100%;
+}
+.projectSubtitle {
+  font-size: 20px;
+  font-weight: 900;
+  font-style: normal;
+ width: 100%;
+ margin: 35px 0 10px 0;
+ height: 50px;
+}
+
+.projectTitle {
+  font-size: 30px;
+  font-weight: 900;
+  font-style: normal;
+ width: 100%;
+ margin: 10px 0;
+ height: 50px;
+}
+
+
+.projectButton {
+  margin: 45px 5%;
+  border: #010B0A 3px solid;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 10px;
+  background-color: #F2DA1B;
+  color: #010B0A;
+  height: 48px;
+  width: 90%;
+  line-height: 24px;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+
+
+.projectDescription {
+  height: 200px;
+}
+
+/* CSS */
+
+.projectButton:after {
+
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+
+
+.projectButton:hover:after {
+  transform: translate(0, 0);
+}
+
+
+
+.projectButton:hover {
+  outline: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+
+.yellowBox {
+  border-top: #010B0A 5px solid;
+  background-color: #F2DA1B;
+  width: 100%;
+  height: 150px;
+bottom: 0;
+}
+
+.propadding {
+  margin-bottom: 2px;
+  width: 100%;
+}
+
+.projectLink {
+  text-decoration: none;
+  color: #010B0A;
+}
+
+.imgProject {
+  width: 100%;
+  height: 500px;
+}
+
+.listItems {
+  list-style-type: none;
+
+  padding: 0 0 0 1rem;
+
+}
+
+.listItems li::before {
+  content: "\2743";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #FB9E35; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+.designImg {
+  width: 100%;
+  height: auto;
+}
+
+
+.footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+width: 95%;
+height: auto;
+font-size: 16px;
+border:#010B0A 10px solid;
+border-radius: 50px;
+
+
+}
+
+.footnote {
+  padding: 0 0 10px 0;
+  margin-left: 35% ;
+}
+
+
+.navBottom {
+  display: grid;
+grid-template-columns: 2fr 2fr 2fr 2fr 2fr 2fr;
+padding:50px 0;
+
+}
+
+.center {
+  text-align: center;
+
+  padding: 1.5rem 25%;
+}
+
+.ulNavBottom {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.ilFirstNavBottom {
+  font-size: 16px;
+  padding-bottom: 3px;
+}
+
+.projectButtonoj {
+  margin: 45px 5%;
+  border: #010B0A 3px solid;
+  border-radius: 8px;
+  font-size: 14px;
+  padding: 0 10px;
+  background-color: #FB9E35;
+  color: #010B0A;
+  height: 48px;
+  width: 90%;
+  line-height: 24px;
+  touch-action: manipulation;
+  box-sizing: border-box;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;}
+
+  .projectLinkoj:active {
+    background-color: #010B0A;
+    outline: 0;
+    color: #FB9E35;
+    padding: 5px;
+    border: #010B0A 1px solid;
+  }
+
+  
+.ojBox {
+  border-top: #010B0A 5px solid;
+  background-color: #FB9E35;
+  width: 100%;
+  height: 150px;
+bottom: 0;
+
+}
+
+
+.projectButtonoj:active {
+  background-color: #010B0A;
+  outline: 0;
+  color: #FB9E35;
+}
+
+.projectButtonoj:hover:after {
+  transform: translate(0, 0);
+}
+
+.projectButtonoj:active {
+  background-color: #010B0A;
+  outline: 0;
+  color: #FB9E35;
+}
+
+.projectButtonoj:hover {
+  outline: 0;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) { 
+  .gridTwoBlocks { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  }
+.threeBlocks {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;}
+
+ }
+.navbarTop {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+ .footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+  width: 100%; 
+  margin: 0;
+}
+
+
+.topicLineL 
+{
+background-color: #6F2A87;
+  width: 100%;
+  margin-top: 25px;
+  height: 5px;
+  
+}
+
+
+
+.gridTopics {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+  grid-gap: 20px;
+  padding: 100px 20px;
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {  
+.gridTwoBlocks { 
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  padding: 20px;
+  }
+  .threeBlocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 20px;
+    padding: 20px;}
+}
+
+.navbarTop {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.mainBoarder {
+  border: #010B0A 10px solid;
+  width: 100%;
+  padding: 10px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;;
+}
+
+.mainInfo {
+  text-align: center;
+    
+}
+
+.footerBox {
+  background-color: #F02B7D;
+  color:#FFFDFE;
+  width: 100%; 
+  margin: 0;
+}
+   
+
+
+/* Large devices (desktops, less than 1200px)*/
+@media only screen and (min-width: 768px)  { 
+  .navbarTop {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+  .footerBox {
+    background-color: #F02B7D;
+    color:#FFFDFE;
+
+  border-radius: 50px;
+
+  
+  }
+
+  
+
+}

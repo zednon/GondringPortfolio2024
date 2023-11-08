@@ -15,6 +15,7 @@ export const projects = [
     description:
       "I was the solo designer and developer for this project. I created the branding, website, and marketing materials. I also created the content for the website and social media. I also develop emails for this project, customizing them for release and coding them",  
     button: "View The Study Here",
+    link: 'wrwLink',
   },
 
   {

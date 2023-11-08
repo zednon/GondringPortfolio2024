@@ -9,11 +9,13 @@ import Home from "./pages/home.js";
 import Casestudy from "./pages/casestudy.js";
 import Gallery from "./pages/designs.js";
 import Resume from "./pages/resume.js";
+import Code from "./pages/codeprojects.js";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import Certification from "./pages/Certifications.js";
 
 const router = createBrowserRouter([
   {
-    path: "/GondringPortfolio2024",
+    path: "/GondringPortfolio2024/",
     element: <Home />,
   },
   {
@@ -31,6 +33,14 @@ const router = createBrowserRouter([
   {
     path: "/GondringPortfolio2024/resume",
     element: <Resume />,
+  },
+  {
+    path: "/GondringPortfolio2024/codeprojects",
+    element: <Code />,
+  },
+  {
+    path: "/GondringPortfolio2024/certifications",
+    element: <Certification />,
   },
   {
     path: "/GondringPortfolio2024/casestudy/wrw",

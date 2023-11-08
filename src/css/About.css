@@ -1,14 +1,34 @@
 .heroImg {
  
-    width: 80%;
+    width: 100%;
     height: auto;
+    padding: 0 5% ;
   }
 
   .mainInfo {
     text-align: center;
-    padding: 10px 15% 5px 5%;
   }
+.nameSize {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #010B0A;
+}
 
-  .imgPadding {
-    margin: 0 0 0 5%;
+.fontBig {
+  font-size: 4.5rem;
+  font-weight: 700;
+  color: #010B0A;
+  font-family: "omnes-pro", sans-serif;
+
+}
+
+  @media (max-width: 767.98px) { 
+    .heroImg {
+      width: 100%;
+      height: auto;
+    }
+    .mainInfo {
+      text-align: center;
+    }
+
   }
